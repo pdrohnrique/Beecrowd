@@ -6,6 +6,14 @@ public class No1020 : ExercicioBase
 {
     public override void Executar()
     {
-        Console.WriteLine("Hello World!");
+        int idadeDias = int.Parse(Console.ReadLine());
+        
+        int anos = idadeDias / 365;
+        int meses = (idadeDias % 365) / 30;
+        int dias = (idadeDias % 365) % 30;
+        
+        Console.WriteLine($"{anos} ano(s)");
+        Console.WriteLine($"{meses} mes(es)");
+        Console.WriteLine($"{dias} dia(s)");
     }
 }

@@ -30,6 +30,7 @@ class Program
             ["1018"] = new No1018(),
             ["1019"] = new No1019(),
             ["1020"] = new No1020(),
+            ["1021"] = new No1021(),
             // ... adicione mais conforme faz
         };
 
